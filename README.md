@@ -5,7 +5,7 @@ system N ~10^6 unknowns. This makes the construction and storage of matrices imp
 use of iterative Krylov-subspace methods to avoid the construction of large matrices and pseudo spectral collocation methods
 to minimise computational complexity ~ N*log(N), this code efficiently preforms:
 
-1) time-stepping using a Crank-Nicolson or Euler Implicit schceme,
+1) time-stepping using a Crank-Nicolson or Euler Implicit scheme,
 2) Netwon Iteration & paramater continuation using GMRES or Bi-cgstab routines, 
 3) Pseudo-Arc length paramater continuation using GMRES or Bi-cgstab routines, 
 4) Stability analysis using Arnoldi iteration.
